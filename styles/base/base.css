@@ -97,4 +97,5 @@ button:focus {
   width: 100%;
   min-height: 100vh;
   min-width: 360px;
+  background-image: linear-gradient(var(--soft-violet), var(--soft-blue));
 }

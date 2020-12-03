@@ -2,6 +2,7 @@
     /* Primary */
     --dark-blue:blue: hsl(238, 29%, 16%);
     --red:hsl(14, 88%, 65%);
+    --white:hsl(0,0%,100%);
 
     /* Gradients Bg */
     --soft-violet:hsl(273, 75%, 66%);

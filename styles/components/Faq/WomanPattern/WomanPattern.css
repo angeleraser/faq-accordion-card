@@ -1,0 +1,10 @@
+.Faq-content__woman-pattern {
+  /* border: 1px solid red; */
+  position: absolute;
+  top: -100%;
+  max-width: 235px;
+}
+
+.Faq-content__woman-pattern .woman-patter {
+  /* object-fit: cover; */
+}
