@@ -1,0 +1,29 @@
+:root {
+    /* Primary */
+    --dark-blue:blue: hsl(238, 29%, 16%);
+    --red:hsl(14, 88%, 65%);
+
+    /* Gradients Bg */
+    --soft-violet:hsl(273, 75%, 66%);
+    --soft-blue:hsl(240, 73%, 65%);
+
+    /* Neutral */
+    --grayish-blue:hsl(237, 12%, 33%);
+    --grayish-blue-2:hsl(240, 6%, 50%);
+    --light-grayish-blue:hsl(240, 5%, 91%);
+
+    /* Font Family */
+    --ff-kumbh-sans:'Kumbh Sans', Helvetica, sans-serif;
+
+    /* Font Weights */
+    --fw-regular:400;
+    --fw-bold:700;
+
+    /* Font Sizes */
+    --fs-ss:12px;
+    --fs-s:16px;
+    --fs-sl:18px;
+    --fs-l:20px;
+    --fs-m:24px;
+    --fs-x:32px;
+}
