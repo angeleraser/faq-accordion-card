@@ -1,5 +1,6 @@
 /* Components */
 @import "./WomanPattern/WomanPattern.css";
+@import "./Quests/Quests.css";
 
 .Faq-content {
   display: flex;
@@ -34,11 +35,13 @@
     overflow: hidden;
     height: 100%;
     width: 100%;
+    top: 0;
+    max-height: 580px;
   }
 
   .Faq-content .bg-pattern img {
     position: relative;
-    left: -50%;
+    left: -55%;
     top: -50%;
   }
 }

@@ -4,6 +4,7 @@
   transform: translateY(-60%);
   max-width: 235px;
   z-index: 10;
+  flex-shrink: 0;
 }
 
 .Faq-content__woman-pattern .woman-pattern__cube {
