@@ -10,7 +10,7 @@
   padding-right: 98px;
   border-radius: 20px;
   margin: auto;
-  max-width: 920px;
+  max-width: 480px;
   width: 90%;
   padding: 138px 26px 48px 26px;
   position: relative;
@@ -20,6 +20,8 @@
   position: absolute;
   top: 0;
   left: 50%;
+  width: 100%;
+  max-width: 236px;
   transform: translateX(-50%);
 }
 
@@ -28,6 +30,7 @@
     flex-direction: row;
     padding-left: 0;
     padding: 74px 74px 74px 0;
+    max-width: 920px;
   }
 
   .Faq-content .bg-pattern.only-desktop {

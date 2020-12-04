@@ -22,11 +22,9 @@
   width: 100%;
   border-bottom: 1px solid var(--light-grayish-blue);
   padding: 0 0 20px 0;
-  overflow: hidden;
-  transition: height 0.4s;
 }
 
-.Faq-content__quest-item:not(:first-child) {
+.Faq-content__quest-item:not(:first-of-type) {
   margin-top: 20px;
 }
 
@@ -50,14 +48,21 @@
   font-size: calc(var(--fs-ss) - 2px);
   line-height: 1.7;
   color: var(--grayish-blue-2);
-  height: 0;
-  margin-top: 0;
-  overflow: hidden;
+  margin-top: 16px;
+  display: none;
 }
 
 /* Active statex */
 .is-active .Faq-content__quest {
   font-weight: var(--fw-bold);
+}
+
+.is-active .Faq-content__quest-answer {
+  display: inline-block;
+}
+
+.is-active .Faq-content__quest svg {
+  transform: rotate(180deg);
 }
 
 @media screen and (min-width: 1280px) {
