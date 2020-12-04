@@ -32,6 +32,7 @@
   .Faq-content .bg-pattern.only-desktop {
     position: absolute;
     overflow: hidden;
+    height: 100%;
     width: 100%;
   }
 
