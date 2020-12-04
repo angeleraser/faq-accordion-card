@@ -1,10 +1,43 @@
 .Faq-content__woman-pattern {
-  /* border: 1px solid red; */
   position: absolute;
-  top: -100%;
+  top: 0;
+  transform: translateY(-60%);
   max-width: 235px;
+  z-index: 10;
 }
 
-.Faq-content__woman-pattern .woman-patter {
-  /* object-fit: cover; */
+.Faq-content__woman-pattern .woman-pattern__cube {
+  position: absolute;
+  width: 90px;
+  top: 50%;
+  transform: translateY(-30%);
+  left: 0;
+}
+
+@media screen and (min-width: 1280px) {
+  .Faq-content__woman-pattern {
+    position: relative;
+    transform: none;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    align-items: center;
+    max-width: 100%;
+  }
+
+  .Faq-content__woman-pattern .woman-pattern {
+    overflow: hidden;
+  }
+
+  .Faq-content__woman-pattern .woman-pattern img {
+    position: relative;
+    left: -65px;
+  }
+
+  .Faq-content__woman-pattern .woman-pattern__cube {
+    left: -90px;
+    top: 50%;
+    width: auto;
+    transform: translateY(-20%);
+    position: absolute;
+  }
 }

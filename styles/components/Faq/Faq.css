@@ -11,6 +11,33 @@
   margin: auto;
   max-width: 920px;
   width: 90%;
-  padding: 48px 26px;
+  padding: 138px 26px 48px 26px;
   position: relative;
+}
+
+.Faq-content .bg-pattern.only-mobile {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media screen and (min-width: 1280px) {
+  .Faq-content {
+    flex-direction: row;
+    padding-left: 0;
+    padding: 74px 74px 74px 0;
+  }
+
+  .Faq-content .bg-pattern.only-desktop {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .Faq-content .bg-pattern img {
+    position: relative;
+    left: -50%;
+    top: -50%;
+  }
 }

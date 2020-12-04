@@ -6,4 +6,8 @@
   .only-desktop {
     display: inline-block;
   }
+
+  .only-mobile {
+    display: none;
+  }
 }
